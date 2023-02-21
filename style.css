@@ -1,0 +1,231 @@
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0 ;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.imagemLogo {
+	width: 250px;
+}
+
+.caixaDoTopo{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 15px;
+}
+.produtos li:hover{
+	border-color: #C78C19;
+}
+.produtos li:active{
+	border-color: green;
+}
+
+.produtos li:hover h2{
+	font-size: 40px;
+}
+
+.produtos h2 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.produtoPreco {
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.produtoDescricao {
+	font-size: 18px;
+}
+
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+
+}
+
+nav a:hover {
+	color: #C78C19;
+} 
+
+
+footer {
+	background: url(bg.jpg);
+	text-align: center;
+	padding: 30px 0;
+}
+
+.logoFinal {
+	width: 20%;
+}
+.copy {
+	color : white;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label , form legend {
+	display: block;
+	font-size: 18px;
+	margin: 0 0 20px;
+}
+
+
+.inputPadrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 10px;
+	width: 40%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviarFormulario {
+	width: 40%;
+	background: greenyellow;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	padding: 15px 0;
+	transition: 2s all;
+	cursor: pointer;
+}
+
+.enviarFormulario:hover {
+	background: green;
+	transform: scale(1.09);
+}
+
+table {
+	margin: 20px;
+	width: 36%;
+	font-style: italic;
+}
+
+
+thead {
+	background: #555555;
+}
+
+td , th {
+	border: 1px solid black;
+	padding: 10px 15px;
+}
+
+.caixaSobreBarbearia {
+	text-align: center;
+	background-color: white;
+	margin: 1em 2em;
+}
+
+.tituloBarbearia {
+	font-size: 40px;
+	font-family: 'Raleway' , sans-serif;
+	margin-top: 2em;
+}
+
+.textoBarbearia {
+	font-size: 20px;
+	margin: 3em 0;
+	font-family: 'Gloock', sans-serif;
+	font-weight: lighter;
+	color: #555555;
+}
+
+.sobreTitulo {
+	font-style: italic;
+}
+
+.segundaCaixaBarbearia {
+	background-color: #eeeeee;
+	text-align: center;
+	margin-top: 8em;
+	padding: 10px;
+}
+
+.paginaHome {
+	width: 100%;
+}
+
+.listaProfissionais {
+	display: flex;
+	width: 100%;
+}
+
+.textoProfissionais {
+	margin: 2em 24em;
+	font-size: 19px;
+	font-family: 'Gloock', sans-serif;
+	font-weight: lighter;
+	color: #555555;
+}
+
+.listaProfissionais li{
+	margin: 4em 5em;
+	width: 940px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	
+}
+
+.nomeProfissional {
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Kanit', sans-serif;
+	text-decoration: none;
+}
+
+.descricaoProfissional {
+	font-style: italic;
+}
+
+.listaNomes:hover {
+	background-color: #707070;
+	color: #eeeeee;
+}

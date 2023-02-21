@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Contato - Iagod's Barber Shop</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="caixaDoTopo">
+				<h1><img src="logo.png" class="imagemLogo" alt="Logo da barbearia do Iago"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+						<li><a href="https://www.instagram.com/iagoddd/">Insta Iagod</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+					<label for="nomeSobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomeSobrenome" class="inputPadrao" required placeholder="Nome">
+
+					<label for="email">Email</label>
+					<input type="email" id="email" class="inputPadrao" required placeholder="email@outlook.com">
+
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="inputPadrao" required placeholder="(51) 99999-9999">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="inputPadrao" required placeholder="Escreva sua mensagem"></textarea>
+
+					<fieldset>
+						<legend>Como prefere o nosso contato?</legend>
+						<label for="radioEmail"> <input type="radio" name="contato" value="email" id="radioEmail"> Email</label>
+						
+						<label for="radioTelefone"> <input type="radio" name="contato" value="telefone" id="radioTelefone">Telefone</label>
+		
+						<label for="radioWhatsapp"><input type="radio" name="contato" value="whatsapp" id="radioWhatsapp" checked>Whatsapp</label>
+					</fieldset>
+
+					<fieldset>
+						<legend>Qual o melhor horário para você?</legend>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+
+
+
+					<label><input type="checkbox" class="checkbox">Gostaria de receber mais informações pelo seu email?</label>
+
+				<input type="submit" value="Enviar Formulário" class="enviarFormulario">
+
+			</form>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda-Feira</td>
+						<td>09:00 as 17:00</td>
+					</tr>
+
+					<tr>
+						<td>Quarta-Feira</td>
+						<td>07:00 as 17:00</td>
+					</tr>
+
+					<tr>
+						<td>Sexta-Feira</td>
+						<td>09:00 as 20:00</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</main>
+
+		<footer>
+			<img class="logoFinal" src="logoFinal.png" alt="Logo da barbearia do Iago">
+			<p class="copy">&copy;Copyright 2023 Iagoddd</p>
+		</footer>
+
+	</body>
+</html>	
